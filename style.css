@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper,html,body{
+    height: 100%;
+
+}
+
+.wrapper{
+    background:lightcyan;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.wrapper header{
+    background: lightgreen;
+    display: flex;
+    padding : 35px;
+
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    background: lightcoral;
+    margin: 20px;
+    border-radius: 10px;
+    
+
+}
+.box textarea{
+    margin:10px
+}
+.wrapper footer{
+    background: rgb(128, 15, 0);
+    margin-top: auto;
+}
+.wrapper header .plus{
+    margin-left: auto;
+    background: blueviolet;
+    color: white;
+    padding:12px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.wrapper header .heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.wrapper main .box{
+    /* height: 300px; */
+    width: 300px;
+}
+
+.box-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    padding: 10px;
+    /* margin : 20px */
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.minus{
+    margin-left: auto;
+}
+.icon{
+    /* background-color: red; */
+    padding: 5px;
+    border-radius: 50%;
+    margin-right: 5px;  
+    height: 30px;
+    width: 30px; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+.dialog{
+    position : fixed;
+    top: 0;
+    left : 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.dialog .box{
+    height: 300px;
+    width: 500px;
+    background-color: rgb(223, 39, 223);
+    border-radius: 5px;
+    position: relative;
+    
+    /* border-radius: 50%; */
+}
+
+.dialog .box header{
+    background-color: greenyellow;
+    padding: 10px;
+    margin : 10px;
+    text-align: center;
+}
+.dialog .box div,
+.dialog .box div input, 
+.dialog .box div textarea{
+    padding :6px;
+    width: 100%;
+    
+}
+
+.dialog .box main{
+    margin-top: 20px;
+}
+.cross{
+    background-color: red;
+    color: black;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    top : -8px;
+    right : -8px;
+    position: absolute;
+    border: none;
+}
+.ele{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin: 20px;
+}
+footer{
+    padding : 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-weight: bolder;
+}
+
+.minus{
+    background-color : rgb(95, 7, 7);
+    color : white;
+    /* width: 100%; */
+    cursor: pointer;
+    border : none;
+}
+.edit{
+    background-color: crimson;
+}
+.ex{
+    background-color: rgb(18, 216, 18);
+}
+.box main textarea{
+    padding: 20px;
+    border-radius: 30px;
+}
